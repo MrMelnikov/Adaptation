@@ -178,8 +178,7 @@ body{
 }
 @media all and (max-width: 600px){
 	header{
-		height: 300vh;
-		width: 276vw;
+		height: 100vh;
 		background: url("../img/bg1.jpg");
 		background-size: cover;
 		background-position: center center;
