@@ -1,0 +1,273 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+header{
+	height: 100vh;
+	background: url("../img/bg1.jpg");
+	background-size: cover;
+	background-position: center center;
+	color: white;
+	position: relative;
+	z-index: 11;
+}
+h1{
+	margin: 0;
+}
+body{
+	margin: 0;
+	width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.button a{
+	text-decoration: none;
+	color: white;
+}
+.header-title{
+	text-align: center;
+	padding-top: 200px;
+	font-size: 30px;
+}
+.left{
+	float: left;
+	margin-left: 25vw;
+}
+.right{
+	float: right;
+	margin-right: 25vw;
+}
+.about-us-left{
+	float: left;
+	width: 60vw;
+}
+.about-us-right{
+	float: right;
+	width: 35vw;
+}
+.button{
+	margin-top: 100px;
+	width: 300px;
+	height: 60px;
+	border: 1px solid white;
+	text-align: center;
+	color: white;
+	transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+.button span{
+	position: relative;
+	top: 10px;
+	font-size: 30px;
+}
+.button:hover{
+	border: 1px solid black;
+	background-color: white;
+	opacity: 0.6;
+	transition: background-color 0.3s ease-in, color 0.3s ease-in, opacity 0.3s ease-in;
+}
+.button:hover a{
+	color: black;
+}
+.nav-buttons{
+	display: grid;
+	height: 8vh;
+	width: 100vw;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	text-align: center;
+	align-content: center;
+	font-size: 30px;
+	background-color: #ededed;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+}
+.nav-buttons a{
+	text-decoration: none;
+	color: black;
+}
+.nav-button{
+	border-left: 1px solid #cacaca;
+	transition: background-color 0.2s ease-in;
+}
+.nav-button:hover{
+	background-color: #dadada;
+	transition: background-color 0.2s ease-in;
+}
+.about-us{
+	padding-top: 8vh;
+	padding-left: 40px;
+	height: 60vh;
+}
+.about-us-left{
+	float: left;
+	width: 50%;
+}
+.about-us-left-text{
+	padding-right: 30px;
+	line-height: 20px;
+	text-align: justify;
+	font-size: 20px;
+}
+.about-us-left-title{
+	font-size: 26px;
+}
+.about-us-left-title span{
+	border-bottom: 1px solid #dadada;
+}
+.about-us-right{
+	float: right;
+	margin-top: 20px;
+	margin-right: 150px;
+}
+.button-help{
+	width: 260px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 50px;
+	text-align: center;
+	margin: auto;
+}
+.button-help a{
+	color: black;
+	text-decoration: none;
+	position: relative;
+	top: 5px;
+	font-size: 24px;
+}
+.our-goal{
+	padding-top: 8vh;
+	padding-left: 40px;
+	height: 80vh;
+}
+.our-goal-right{
+	float: right;
+	width: 45%;
+}
+.our-goal-right-text{
+	padding-right: 30px;
+	line-height: 20px;
+	text-align: justify;
+	font-size: 20px;
+}
+.our-goal-right-title{
+	font-size: 26px;
+}
+.our-goal-right-title span{
+	border-bottom: 1px solid #dadada;
+}
+.our-goal-left{
+	float: left;
+	width: 45%;
+	margin-top: 20px;
+	margin-right: 150px;
+}
+.main-footer{
+	height: 20vh;
+	background-color: #343434;
+	color: white;
+}
+.footer-title{
+	text-align: center;
+	border-bottom: 1px solid #676767;
+	padding: 10px;
+	font-size: 26px;
+}
+.footer-comment{
+	padding: 10px;
+	font-size: 24px;
+	text-align: center;
+}
+@media all and (max-width: 600px){
+	header{
+		height: 300vh;
+		width: 276vw;
+		background: url("../img/bg1.jpg");
+		background-size: cover;
+		background-position: center center;
+		color: white;
+		position: relative;
+		z-index: 11;
+	}
+	.header-title{
+		text-align: center;
+		padding-top: 300px;
+		font-size: 55px;
+	}
+	.button{
+		margin-top: 100px;
+		width: 600px;
+		height: 200px;
+		border: 1px solid white;
+		text-align: center;
+		color: white;
+		transition: background-color 0.3s ease-in, color 0.3s ease-in;
+	}
+	.button span{
+		position: relative;
+		top: 55px;
+		font-size: 70px;
+	}
+	.left{
+		float: left;
+		margin-left: 40vw;
+	}
+	.right{
+		float: right;
+		margin-right: 47vw;
+	}
+	.about-us{
+		padding-top: 5vh;
+		height: 100vh;
+	}
+	.about-us-left{
+		margin: auto;
+		width: 300%;
+	}
+	.about-us-left-text{
+		line-height: 60px;
+		text-align: justify;
+		font-size: 60px;
+	}
+	.about-us-left-title{
+		font-size: 96px;
+		text-align: center;
+	}
+	.button-help{
+		width: 560px;
+		height: 120px;
+		border: 1px solid black;
+		border-radius: 100px;
+		text-align: center;
+		margin: auto;
+}
+	.button-help a{
+		color: black;
+		text-decoration: none;
+		position: relative;
+		top: 5px;
+		font-size: 70px;
+	}
+	.about-us-right{
+		float: right;
+		margin-top: 50px;
+		margin-right: 150px;
+	}
+	.slideInRight{
+		padding-left: 80px;
+	}
+	.our-goal{
+		padding-top: 2vh;
+		height: 100vh;
+	}
+	.our-goal-right{
+		width: 145%;
+	}
+	.our-goal-right-text{
+		line-height: 20px;
+		text-align: justify;
+		font-size: 20px;
+	}
+	.our-goal-right-title{
+		font-size: 96px;
+		text-align: center;
+	}
+}
